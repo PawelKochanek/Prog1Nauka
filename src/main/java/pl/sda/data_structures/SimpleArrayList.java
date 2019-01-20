@@ -9,4 +9,8 @@ package pl.sda.data_structures;
  *  - isEmpty - sprawdza czy lista jest pusta
  */
 public class SimpleArrayList {
+    private final static int DEFAULT_CAPACITY = 10;
+    private int[] content;
+    private int size;
+
 }
